@@ -48,6 +48,8 @@ global:
       database: "demodb"
 
 postgresql:
+  image:
+    repository: bitnamilegacy/postgresql
   fullnameOverride: postgres-demo
   primary:
     resources:
